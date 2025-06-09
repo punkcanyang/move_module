@@ -1,0 +1,26 @@
+[package]
+name = "openzeppelin-move"
+version = "1.0.0"
+authors = ["Your Name <your.email@example.com>"]
+
+[addresses]
+ownable = "_"
+access_control = "_"
+capability_store = "_"
+pausable = "_"
+block_limiter = "_"
+comprehensive_test = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "main" }
+
+[dev-addresses]
+ownable = "0xa1"
+access_control = "0xa2"
+capability_store = "0xa3"
+pausable = "0xa4"
+block_limiter = "0xa5"
+comprehensive_test = "0xa6"
+
+[dev-dependencies] 
