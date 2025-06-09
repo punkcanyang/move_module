@@ -1,4 +1,4 @@
-# ��️ OpenZeppelin Move Security Modules Suite
+# 🛡️ OpenZeppelin Move Security Modules Suite
 
 [English](./docs/en/README.md) | [中文](./docs/cn/README.md)
 
@@ -26,6 +26,16 @@ This project provides enterprise-grade security infrastructure for Move develope
 | **Module Guide** | [docs/en/MODULE_GUIDE.md](./docs/en/MODULE_GUIDE.md) | [docs/cn/MODULE_GUIDE.md](./docs/cn/MODULE_GUIDE.md) |
 | **Test Report** | [docs/en/INTEGRATION_TEST_REPORT.md](./docs/en/INTEGRATION_TEST_REPORT.md) | [docs/cn/INTEGRATION_TEST_REPORT.md](./docs/cn/INTEGRATION_TEST_REPORT.md) |
 | **Project Summary** | [docs/en/PROJECT_SUMMARY.md](./docs/en/PROJECT_SUMMARY.md) | [docs/cn/PROJECT_SUMMARY.md](./docs/cn/PROJECT_SUMMARY.md) |
+| **Security Issues** | [docs/en/SECURITY_TODO.md](./docs/en/SECURITY_TODO.md) | [docs/cn/SECURITY_TODO_CN.md](./docs/cn/SECURITY_TODO_CN.md) |
+
+## ⚠️ Security Notice
+
+**IMPORTANT**: This project is currently in development and has identified security issues that need to be resolved. Please review the security documentation before use:
+
+- 🚨 **[Security Issues (English)](./docs/en/SECURITY_TODO.md)**
+- 🚨 **[安全问题清单 (中文)](./docs/cn/SECURITY_TODO_CN.md)**
+
+**DO NOT use in production until critical security issues are fixed.**
 
 ## 🚀 Quick Start
 
@@ -78,8 +88,8 @@ module your_project::secure_contract {
 
 - ✅ **100% Test Coverage** - All functionality thoroughly tested
 - ✅ **Formal Verification** - Mathematical security proofs
-- ✅ **Production Ready** - Enterprise-grade reliability
-- ✅ **Cross-Platform** - Multiple blockchain support
+- ⚠️ **Security Issues Identified** - 33 issues documented and being addressed
+- 🔄 **Active Development** - Continuous improvement and fixes
 
 ## 🌟 Application Scenarios
 
@@ -130,28 +140,28 @@ aptos move check
 
 ## 📈 Roadmap
 
-### Current Status ✅
+### Current Status 🔄
 - Core security modules implemented
 - Comprehensive testing completed
 - Documentation finalized
-- Production deployment ready
+- **Security issues being addressed**
 
 ### Future Development 🔮
+- Fix all identified security issues
 - Additional security modules (ReentrancyGuard, TimeLock)
 - Cross-chain compatibility features
 - Developer tooling integration
-- Community growth initiatives
 
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [contributing guidelines](./CONTRIBUTING.md) for details.
 
 ### Areas for Contribution
+- **Security fixes** - Help resolve identified issues
 - Additional security modules
 - Documentation improvements
 - Example applications
 - Testing enhancements
-- Performance optimizations
 
 ## 📄 License
 
@@ -172,5 +182,6 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 - 🛠️ **Source Code**: [./move/sources/](./move/sources/)
 - 🧪 **Tests**: [./move/tests/](./move/tests/)
 - 📊 **Examples**: [docs/en/USAGE_EXAMPLES.md](./docs/en/USAGE_EXAMPLES.md)
+- 🚨 **Security**: [docs/en/SECURITY_TODO.md](./docs/en/SECURITY_TODO.md)
 
 **Built with ❤️ for the Move ecosystem** 
