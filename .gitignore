@@ -2,3 +2,4 @@
 /openzeppelin-contracts
 /move/build
 .contracts
+.DS_Store
